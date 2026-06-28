@@ -1,9 +1,9 @@
-import LoggedIn from "@/components/Home/LoggedIn"
+import LoggedOut from "@/components/Home/LoggedIn";
 
 export default function Home() {
   return (
     <div>
-      <LoggedIn />
+      <LoggedOut />
     </div>
   );
 }
